@@ -10,4 +10,6 @@ public interface IAppointmentRepo extends JpaRepository<Appointment, Appointment
 public String findByIdAppId(Long id);
 
 public String time(Long date);
+
+public String findByTime(Long date);
 }
